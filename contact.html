@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><a href="/index.html"><img src="./images/V-Win_Logo-bg.png" width="200px"></a></div>
+
+        <ul class="nav-links" id="navMenu">
+            <li class="link"><a href="/index.html">Home</a></li>
+            <li class="link"><a href="/About.html">About Us</a></li>
+
+            <li class="has-dropdown link">
+                <a href="/services.html" class="services-link">Services</a>
+                <span class="caret" role="button" aria-expanded="false" aria-controls="servicesDropdown"
+                    tabindex="0">▼</span>
+                <ul class="dropdown" id="servicesDropdown">
+                    <li><a href="/services/domestic.html">Domestic</a></li>
+                    <li><a href="/services/international.html">International</a></li>
+                    <li><a href="/services/imports.html">Imports</a></li>
+                    <li><a href="/services/air.html">Air</a></li>
+                    <li><a href="/services/sea.html">Sea</a></li>
+                    <li><a href="/services/DGR.html">DGR</a></li>
+                    <li><a href="/services/ecom.html">Ecom</a></li>
+                </ul>
+            </li>
+
+            <li class="link"><a href="/tracking.html">Tracking</a></li>
+            <li class="link"><a href="/contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <div class="banner">
+        <div>
+            <h1>Expressing Values Connecting with You</h1>
+            <p>Have a question, need
+                support, or ready to ship with us? Our team is here to assist you with prompt responses and reliable
+                logistics solutions—whether it’s domestic, international, or critical cargo.</p>
+        </div>
+        <img src="./images/call.png" />
+    </div>
+    <div class="call">
+        <div class="call-info">
+            <p class="head">Call Us</p>
+            <div class="underline"></div>
+            <p class="para">We’re just a call away for all your
+                logistics needs</p>
+            <div style="display: flex;flex-wrap:wrap;margin-bottom: 30px;">
+                <p class="first">Primary Contact</p>
+                <p class="number">+91 98330 66922</p>
+            </div>
+            <div style="display: flex;flex-wrap:wrap;">
+                <p class="second">Office Hours Support Line</p>
+                <p class="time">(10:00 AM to 7:00 PM)</p>
+            </div>
+        </div>
+        <div>
+            <img src="./images/laptop.png" />
+        </div>
+    </div>
+    <div class="email">
+        <div class="img-div"><img src="./images/mail.png" /></div>
+        <div class="email-div">
+            <p class="head">Email Us</p>
+            <div class="underline"></div>
+            <p class="para">Reach out to us for queries, business
+                inquiries, or assistance</p>
+            <div class="email-info">
+                <p class="p-email">Primary Email</p>
+                <p class="e-email">ops@v-winexpress.com</p>
+            </div>
+            <div class="email-info">
+                <p class="p-support">Support</p>
+                <p class="e-email">info@v-winexpress.com</p>
+            </div>
+            <div class="email-info">
+                <p class="p-support">Support</p>
+                <p class="e-email">vwinexpress@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="visit">
+        <div class="visit-sec">
+            <p class="heading">Visit Us</p>
+            <div class="underline"></div>
+            <p class="visit-para">V Win Express International<br>
+                No - A/006 Shri Hanumanta Apartments,
+                Bamanwada , M.C. Chhagla Marg,
+                Vile Parle ( East ), Mumbai – 400 099</p>
+            <div style="display: flex;">
+                <p class="gmap">Google Maps</p>
+                <p class="Glink">Link Goes Here</p>
+            </div>
+        </div>
+        <div style="text-align: center;"><img src="./images/Tracking.png" /></div>
+    </div>
+    <div class="contact">
+        <div class="contact-sec">
+            <img src="./images/message.png" />
+        </div>
+        <div>
+            <div class="contact-form">
+                <p class="contact-head">Send Us a Message</p>
+                <p class="contact-para">Feel free to drop us a message. Our team will get back to you shortly</p>
+                <form action="./php/send-mail.php" method="POST">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <p class="highlight">Let’s Get Your Shipment Moving</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="info">
+            <strong>V Win Express International</strong> is a Mumbai-based courier and logistics company offering both
+            domestic and
+            international services, with a specialization in MENA-region express deliveries, e-commerce solutions,
+            freight, and imports.
+        </div>
+        <div class="footer-links">
+            <h2 style="font-size: 24px;">Quick links</h2>
+            <a href="/index.html">
+                <p>Home</p>
+            </a>
+            <a href="/About.html">
+                <p>About Us</p>
+            </a>
+            <a href="/services.html">
+                <p>Services</p>
+            </a>
+            <a href="/tracking.html">
+                <p>Tracking</p>
+            </a>
+            <a href="/contact.html">
+                <p>Contact Us</p>
+            </a>
+        </div>
+        <div class="footer-links">
+            <h2 style="font-size: 24px;">Services</h2>
+            <a href="/services/domestic.html"><p>Domestic Courier</p></a>
+            <a href="/services/international.html"><p>International Courier<br>(Middle East Specialists)</p></a>
+            <a href="/services/imports.html"><p>Import solutions</p></a>
+            <a href="/services/air.html"><p>Air Freight</p></a>
+            <a href="/services/sea.html"><p>Sea Freight</p></a>
+            <a href="/services/DGR.html"><p>DGR / Haz Cargo</p></a>
+            <a href="/services/ecom.html"><p>eCommerce Logistics</p></a>
+        </div>
+        <div class="footer-links">
+            <h2 style="font-size: 24px;">Contact Info</h2>
+            <p>Vwin Express International</p>
+            <a href="mailto:ops@v-winexpress.com">
+                <div class="social"><img src="./images/gmail-logo.png">
+                    <p>ops@v-winexpress.com</p>
+                </div>
+            </a>
+            <a href="tel:+919833066922">
+                <div class="social"><img src="./images/telephone-symbol-button.png">
+                    <p>+91 9833066922</p>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/company/v-win-express-international/">
+                <div class="social"><img src="./images/linkedin.png">
+                    <p>Linkedin
+                    <p>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100067037181469">
+                <div class="social"><img src="./images/facebook (1).png">
+                    <p>Facebook</p>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/vwinexpressintl/">
+                <div class="social"><img src="./images/instagram (1).png">
+                    <p>Instagram</p>
+                </div>
+            </a>
+            <p>Mon–Sat | 10:00 AM – 7:00 PM</p>
+        </div>
+    </div>
+    <div class="foot">
+        <h3>© 2025 V Win Express International. All rights reserved.</h3>
+        <p>Built with precision. Delivered with care.</p>
+    </div>
+    <script src="./js/ham.js"></script>
+</body>
+
+</html>
